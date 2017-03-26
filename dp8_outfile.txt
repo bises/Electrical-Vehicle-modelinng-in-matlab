@@ -1,0 +1,42 @@
+PART H: TOP-SPEED ALGORITHM
+Acharya Bishesh; Spring 2016; Update 16-Apr-2016
+motorMaxRpm = 5500    IbpMax = 250    VbpMax = 150
+GEAR RESULTS:  1
+Uv mph                            10    20    30    40    50    60    70    80    90
+c. requireMotorRpm, rpm         1349  2699  4048  5397  6746  8096  9445 10794 12143
+d. requiredMotorAmps, amps        76    80    86    95   105   117   131   146   162
+e. requiredMotorVoltsVm, volts    29    60    93   128   167   210   257   308   363
+Limitted by: Motor Max RPM Rmmax;
+Top Speed= 40 mph; requireMotorRpm@this speed = 5397.04 rpm
+
+GEAR RESULTS:  2
+ 60    70    80    90
+c. requireMotorRpm, rpm         1012  2024  3036  4048  5060  6072  7084  8096  9108
+d. requiredMotorAmps, amps        93    99   107   117   130   145   162   180   200
+e. requiredMotorVoltsVm, volts    24    49    76   105   137   173   212   254   300
+Limitted by: Batterypack Max Volts VbpMax;
+Top Speed= 53 mph; requireMotorVolts@this speed = 147.509 volts
+
+GEAR RESULTS:  3
+Uv mph                            10    20    30    40    50    60    70    80    90
+c. requireMotorRpm, rpm          675  1349  2024  2699  3373  4048  4722  5397  6072
+d. requiredMotorAmps, amps       126   133   143   157   175   195   217   242   269
+e. requiredMotorVoltsVm, volts    18    37    57    80   104   132   162   195   231
+Limitted by: Batterypack Max Volts VbpMax;
+Top Speed= 66 mph; requireMotorVolts@this speed = 149.306 volts
+
+GEAR RESULTS:  4
+Uv mph                            10    20    30    40    50    60    70    80    90
+c. requireMotorRpm, rpm          506  1012  1518  2024  2530  3036  3542  4048  4554
+d. requiredMotorAmps, amps       155   164   177   194   216   240   268   299   332
+e. requiredMotorVoltsVm, volts    15    30    47    66    86   109   134   162   193
+Limitted by: Batterypack Max Amps IbpMax;
+Top Speed= 63 mph; requireMotorAmps@this speed = 248.359 amps
+
+GEAR RESULTS:  5
+Uv mph                            10    20    30    40    50    60    70    80    90
+c. requireMotorRpm, rpm          337   675  1012  1349  1687  2024  2361  2699  3036
+d. requiredMotorAmps, amps       208   220   238   261   290   323   361   402   447
+e. requiredMotorVoltsVm, volts    11    23    36    51    67    84   104   127   151
+Limitted by: Batterypack Max Amps IbpMax;
+Top Speed= 35 mph; requireMotorAmps@this speed = 248.806 amps
